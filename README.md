@@ -37,19 +37,6 @@ The plug-in fires these events on the AI Assistant region (use a Dynamic Action 
 
 Every label and tooltip is a plug-in message (`VOICE_INPUT.*`); defaults are in [plugin/messages.json](plugin/messages.json).
 
-## Repository layout
-
-- `src/voice-input.js`, `src/voice-input.css`: runtime and styles
-- `plugin/`: messages, help text and `voice-to-text-plugin.sql` (importable plug-in export)
-- `applications/voice-to-text-demo/`: APEXlang source of the demo app (app 9100: a home page with an Engine card list and the manual real-microphone checklist, plus one AI Assistant page per Engine; the AI Assistant agent needs a Generative AI service in your workspace), including the plug-in (its `static-files` copies of the runtime are checked against `src/` by the tests; re-export `plugin/voice-to-text-plugin.sql` after changing `src/`)
-- `tests/`: Vitest + jsdom tests driving `orclapexVoiceInput.execute(...)` against a fake AI Assistant region
-- `CONTEXT.md`: glossary
-
-```bash
-npm install
-npm test
-```
-
 ## Licence
 
 MIT, see [LICENSE](LICENSE).
