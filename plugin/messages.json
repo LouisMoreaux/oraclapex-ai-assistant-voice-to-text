@@ -1,0 +1,14 @@
+{
+  "VOICE_INPUT.MIC_LABEL": "Dictate",
+  "VOICE_INPUT.LISTENING": "Listening",
+  "VOICE_INPUT.STOPPED": "Stopped listening",
+  "VOICE_INPUT.LOADING": "Loading speech model",
+  "VOICE_INPUT.PROCESSING": "Transcribing",
+  "VOICE_INPUT.BLOCKED": "Microphone blocked. Allow it in the site settings of your browser to dictate.",
+  "VOICE_INPUT.ERROR.unsupported": "Voice input is not supported by this browser or engine.",
+  "VOICE_INPUT.ERROR.permission-denied": "Microphone access was denied. Allow it in your browser settings to dictate.",
+  "VOICE_INPUT.ERROR.no-microphone": "No microphone found. Check that one is connected and that your browser is allowed to use it.",
+  "VOICE_INPUT.ERROR.model-unavailable": "The speech model could not be loaded.",
+  "VOICE_INPUT.ERROR.network": "A network error interrupted voice input.",
+  "VOICE_INPUT.ERROR.no-speech": "No speech was detected."
+}

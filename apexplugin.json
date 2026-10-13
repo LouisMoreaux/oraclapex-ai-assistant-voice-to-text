@@ -1,0 +1,39 @@
+{
+  "name" : "Voice to Text for AI Assistant",
+  "version" : "1.0.0",
+  "description" : "Oracle APEX Dynamic Action plug-in (APEX 26.1+) that adds a Mic Button to an AI Assistant region so users can dictate prompts.",
+  "keywords" : ["apex", "ai", "voice"],
+  "homepage" : "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text",
+  "bugs" : {
+    "url" : "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text/issues",
+    "email" : "moreaux.louis@gmail.com"
+  },
+  "license" : "MIT",
+  "commercial" : "No",
+  "commercially_supported":"No",
+  "author" : {
+    "name" : "Louis Moreaux",
+    "email" : "moreaux.louis@gmail.com",
+    "url" : "https://lmoreaux.hashnode.dev/",
+    "twitter": "moreaux_louis"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text.git"
+  },
+  "oracle": {
+    "versions" : ["19.0.0.0.0"],
+    "apex": { 
+      "versions": [
+        "26.1.0",
+        "26.2.0"
+      ],
+      "plugin" : {
+        "internalName" : "COM.LMOREAUX.VOICE_TO_TEXT",
+        "type" : "dynamic action",
+        "demo" : "https://oracleapex.com/ords/r/louis/voice-to-text-demo/login",
+        "previewImage": "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text/images/preview.png"
+      }
+    }
+  }
+}

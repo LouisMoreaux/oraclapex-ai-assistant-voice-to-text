@@ -1,0 +1,22 @@
+.voice-input-mic[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.voice-input-mic[data-state="loading"],
+.voice-input-mic[data-state="processing"] {
+  opacity: 0.7;
+  cursor: progress;
+}
+.voice-input-mic[data-state="loading"][data-progress]::after {
+  content: attr(data-progress) "%";
+  margin-inline-start: 0.25em;
+  font-size: 0.75em;
+}
+.voice-input-live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
