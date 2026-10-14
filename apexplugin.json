@@ -32,7 +32,7 @@
         "internalName" : "COM.LMOREAUX.VOICE_TO_TEXT",
         "type" : "dynamic action",
         "demo" : "https://oracleapex.com/ords/r/louis/voice-to-text-demo/login",
-        "previewImage": "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text/blob/main/images/preview.gif"
+        "previewImage": "https://github.com/LouisMoreaux/oraclapex-ai-assistant-voice-to-text/blob/main/images/preview.gif?raw=true"
       }
     }
   }
